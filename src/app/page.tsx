@@ -20,13 +20,15 @@ export default function Home() {
           <div className={styles.dot3}></div>
         </div>
         <div className={styles.innerContents}>
+        <h1 className={styles.heading}>Portfolion</h1>
           <div className={styles.appContents}>
-        <h1 className={styles.heading}>Portfoilon</h1>
+            <h1 className={styles.appHeading}>Portfolion</h1>
         <p>
           A no code Web based portfolio creator for all professionals and
           graduates. 
         </p>
         <button className={styles.button} onClick={openResumeCreator}>Create My Portfolio/CV</button>
+        
         </div>
         <Player
           autoplay
@@ -36,6 +38,7 @@ export default function Home() {
         >
         </Player>
         </div>
+        <p className={styles.creditsSection}>Made with  ❤️ by Ajai S S, Abhishek Kumar, Shivam Saini and Anusha N</p>
       </div>
     </div>
   );
