@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Agustina Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Agustina Regular"),
+      url("../../app/assets/fonts/Agustina.woff") format("woff");
+  }
+
+.heading{
+    font-size: 30px;
+    font-family: Agustina Regular;
+    position: absolute;
+    top : 0;
+    left: 10px;
+  }

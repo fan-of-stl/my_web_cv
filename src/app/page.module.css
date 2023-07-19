@@ -97,19 +97,24 @@
  font-size: 60px;
 }
 .button{
-  background: rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(6px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    /* backdrop-filter: blur(6px); */
+    border-radius: 15px;
+    border: none;
     color: white;
     padding: 10px;
     width: max-content;
     cursor: pointer;
     font-size: 20px;
+    text-align:center;
+    transition: all .4s ease-in-out;
+    background-size: 300% 100%;
+    font-weight: 600;
 }
 .button:hover {
-  background: rgba(0, 0, 0, 0.6);
+  background-position: 100% 0;
 }
 .creditsSection{
   display: flex;
