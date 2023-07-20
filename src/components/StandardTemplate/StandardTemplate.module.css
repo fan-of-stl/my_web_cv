@@ -7,9 +7,12 @@
   }
 
 .heading{
-    font-size: 30px;
+    transform: translateY(2vh)scaleY(1.5);
     font-family: Agustina Regular;
     position: absolute;
     top : 0;
     left: 10px;
+    font-weight: 600;
   }
+
+

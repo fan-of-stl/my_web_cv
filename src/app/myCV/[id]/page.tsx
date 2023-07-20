@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import WebCVCongiguration from "@/components/WebCVCongiguration/WebCVCongiguration";
+import WebCVConfiguration from "@/components/WebCVConfiguration/WebCVConfiguration";
 
 function MyCV({ params }: { params: { id: string } }) {
   const [user, setUser] = useState({
@@ -10,7 +10,7 @@ function MyCV({ params }: { params: { id: string } }) {
      template: "standard"
     },
     personalDetails: {
-      username: "Ajai S S",
+      username: "Ajai Suyambulingam Shanthi",
       designation: "Systems Engineer",
       organisation: "Infosys Ltd",
       email: "ajaiss1713@gmail.com",
@@ -58,7 +58,7 @@ function MyCV({ params }: { params: { id: string } }) {
 
   return (
     <>
-      <WebCVCongiguration data={user}/>
+      <WebCVConfiguration data={user}/>
     </>
   );
 }
